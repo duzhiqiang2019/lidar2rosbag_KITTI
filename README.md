@@ -38,3 +38,6 @@ rosrun lidar2rosbag lidar2rosbag /data/KITTI/dataset/sequences/01/ bag01
 ```
 and so on...
 
+如果遇到LZ4_stream_t, LZ4_streamDecode_t build error错误
+可以通过下面链接中的方法解决
+https://github.com/ethz-asl/lidar_align/issues/16#issuecomment-504348488
